@@ -25,7 +25,8 @@
             <groupId>local.spigotmc</groupId>
             <artifactId>spigot</artifactId>
             <version>1.15.2</version>
-            <scope>provided</scope>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/spigot-1.15.2.jar</systemPath>
             <optional>true</optional>
         </dependency>
     </dependencies>
